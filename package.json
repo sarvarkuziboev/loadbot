@@ -1,0 +1,14 @@
+{
+  "name": "gross-board-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gross Board accounting uchun Telegram bot (Vercel)",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "papaparse": "^5.7.1"
+  }
+}
