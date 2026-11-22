@@ -12,13 +12,7 @@ module.exports = async (req, res) => {
   });
   const cmds = await tg.call('setMyCommands', {
     commands: [
-      { command: 'hisobot', description: 'Dispetcher hisoboti' },
-      { command: 'foiz', description: 'Oylik ulush (1% / 1.7% / 2%)' },
-      { command: 'grafik', description: 'Dispetcherlarni taqqoslash' },
-      { command: 'yil', description: 'Oyma-oy gross' },
-      { command: 'xatolar', description: 'Jadvaldagi xatolar' },
-      { command: 'yangila', description: 'Jadvalni qayta o\'qish' },
-      { command: 'help', description: 'Yordam' },
+      { command: 'start', description: 'Menyu' },
     ],
   });
   res.status(200).json({ webhook: url, setWebhook: hook, setMyCommands: cmds });
